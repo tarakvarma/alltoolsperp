@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToolCart - Free Professional Calculators & Utilities</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="top-banner">
+            <span>SPEED UP YOUR DAY — 100% FREE TOOLS ARE HERE TO HELP!</span>
+        </div>
+        <nav>
+            <div class="logo">
+                <a href="#">⚡ <span>ToolCart</span></a>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>ToolCart</h1>
+            <p>Smart Calculators & Utilities — Professional, Accurate, Free & Fast</p>
+            <div class="search-container">
+                <input type="text" id="tool-search" placeholder="Search tools... (e.g., BMI, loan, percentage)">
+                <button id="search-btn">Search</button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="number">500+</span>
+                    <span class="label">Free Tools</span>
+                </div>
+                <div class="stat">
+                    <span class="number">100%</span>
+                    <span class="label">Free Forever</span>
+                </div>
+                <div class="stat">
+                    <span class="number">0</span>
+                    <span class="label">Sign-ups Required</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="categories" id="tools-container">
+            <!-- Tools will be dynamically loaded here -->
+        </section>
+
+        <!-- Calculator Modal -->
+        <div id="calculator-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div id="calculator-container">
+                    <!-- Specific calculator UI will load here -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>TOOL<span>CART</span></h2>
+                <p>Professional-grade calculators and utilities that are fast, accurate, and completely free. No sign-up required. Your data stays in your browser — private and secure.</p>
+            </div>
+            <div class="footer-links">
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-medium"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+                <div class="legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookie Policy</a>
+                    <a href="#">Disclaimer</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 ToolCart. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
